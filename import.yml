@@ -7,4 +7,4 @@ services:
   - port: 8000
     httpSupport: true
   enableSubdomain: true
-  buildFromGit: https://github.com/vankovap/zerops-python-hello-world@main
+  buildFromGit: https://github.com/zeropsio/zerops-python-hello-world@main
