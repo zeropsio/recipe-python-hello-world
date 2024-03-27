@@ -4,4 +4,4 @@ zerops:
       base: python@3.11
       deploy: hello.py
     run:
-      startCommand: python3 hello.py
+      start: python3 hello.py
