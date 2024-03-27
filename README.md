@@ -1,2 +1,5 @@
-# recipe-python-hello-world
-Python Hello World web app in Zerops.
+# Python Hello World web app recipe
+
+Get familiar with Zerops with this super simple Python web application.
+
+You can find the full guide on how to start this service in Zerops in this [Quick Start](https://v2.docs.zerops.dev/python/quickstart).
