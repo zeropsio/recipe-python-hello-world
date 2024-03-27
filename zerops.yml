@@ -1,6 +1,7 @@
-helloworld:
-  build:
-    base: [ python@3.11 ]
-    deploy: [ hello.py ]
-  run:
-    start: python3 hello.py
+zerops:
+  - setup: helloworld
+    build:
+      base: python@3.11
+      deploy: hello.py
+    run:
+      start: python3 hello.py
