@@ -6,4 +6,4 @@ services:
   ports:
   - port: 8000
     httpSupport: true
-  buildFromGit: https://github.com/zeropsio/zerops-python-hello-world@main
+  buildFromGit: https://github.com/zeropsio/recipe-python-hello-world@main
