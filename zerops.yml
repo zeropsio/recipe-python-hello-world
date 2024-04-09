@@ -1,5 +1,5 @@
 zerops:
-  - setup: python0
+  - setup: helloworld
     build:
       base: python@3.11
       deploy:
