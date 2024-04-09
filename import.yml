@@ -1,6 +1,6 @@
 services:
 - hostname: helloworld
-  type: python@3.12
+  type: python@3.11
   minContainers: 1
   maxContainers: 3
   ports:
