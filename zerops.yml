@@ -1,7 +1,12 @@
 zerops:
-  - setup: helloworld
+  - setup: python0
     build:
       base: python@3.11
-      deploy: hello.py
+      deploy:
+        - app/~hello.py
+      addToRunPrepare:
+        - app/requirements.txt
     run:
+      prepareCommands:
+        - python3 -m pip install --ignore-installed -r app/requirements.txt
       start: python3 hello.py
