@@ -1,6 +1,0 @@
-services:
-- hostname: helloworld
-  type: python@3.11
-  minContainers: 1
-  maxContainers: 3
-  buildFromGit: https://github.com/zeropsio/recipe-python-hello-world@main
